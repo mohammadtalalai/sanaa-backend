@@ -1,0 +1,23 @@
+/*
+ * Tailwind v4 entry. The SANAA design system (colors, type, components) lives in ./fos/fos.css
+ * and ./fos/extra.css; this file maps its tokens for Tailwind utilities.
+ */
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+@import "./fos/fos.css";
+@import "./fos/extra.css";
+
+@custom-variant dark (&:is([data-theme=dark] *));
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--ink);
+  --color-card: var(--surface);
+  --color-primary: var(--primary);
+  --color-muted: var(--primary-soft);
+  --color-muted-foreground: var(--muted);
+  --color-border: var(--border);
+  --color-destructive: var(--danger);
+  --font-sans: 'IBM Plex Sans Arabic', 'IBM Plex Sans', sans-serif;
+}

@@ -1,0 +1,18 @@
+export const statusLabels: Record<string, string[]> = {
+  draft: ['مسودة', 'Draft'],
+  confirmed: ['مؤكد', 'Confirmed'],
+  production: ['قيد التصنيع', 'In production'],
+  ready: ['جاهز للتسليم', 'Ready'],
+  delivered: ['تم التسليم', 'Delivered'],
+  pending: ['بانتظار الموافقة', 'Pending'],
+  approved: ['تمت الموافقة', 'Approved'],
+  rejected: ['مرفوض', 'Rejected'],
+  active: ['نشط', 'Active'],
+  cancelled: ['ملغي', 'Cancelled'],
+  shipped: ['في الطريق', 'Shipped'],
+  completed: ['مكتمل', 'Completed'],
+  expired: ['منتهي', 'Expired'],
+  revoked: ['ملغى الوصول', 'Revoked'],
+  denied: ['مرفوض', 'Denied'],
+  suspended: ['موقوف', 'Suspended'],
+};
