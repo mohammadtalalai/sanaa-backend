@@ -1,0 +1,53 @@
+{
+  "_note": "PLACEHOLDER PRICES - replace every price/multiplier with the real SANAA price list before going live.",
+  "currency": "EGP",
+  "vat_pct": 14,
+  "product_types": {
+    "wardrobe":     {"name_ar": "دولاب", "name_en": "Wardrobe", "synonyms": ["دولاب", "دواليب", "خزانه", "خزانة", "wardrobe", "closet"],
+                     "base_price": 28000, "default_dims": [200, 60, 220], "min_dims": [80, 45, 150], "max_dims": [400, 75, 280], "production_days": 21},
+    "bed":          {"name_ar": "سرير", "name_en": "Bed", "synonyms": ["سرير", "سراير", "bed"],
+                     "base_price": 22000, "default_dims": [180, 210, 110], "min_dims": [90, 190, 80], "max_dims": [220, 230, 160], "production_days": 18},
+    "dining_table": {"name_ar": "ترابيزة سفرة", "name_en": "Dining table", "synonyms": ["ترابيزه سفره", "ترابيزة سفرة", "طاوله سفره", "طاولة سفرة", "سفره", "سفرة", "dining table", "table"],
+                     "base_price": 18000, "default_dims": [180, 90, 75], "min_dims": [80, 70, 70], "max_dims": [320, 130, 80], "production_days": 15},
+    "sofa":         {"name_ar": "كنبة", "name_en": "Sofa", "synonyms": ["كنبه", "كنبة", "كنب", "انتريه", "أنتريه", "sofa", "couch"],
+                     "base_price": 20000, "default_dims": [220, 90, 85], "min_dims": [120, 75, 70], "max_dims": [350, 110, 100], "production_days": 18},
+    "tv_unit":      {"name_ar": "وحدة تلفزيون", "name_en": "TV unit", "synonyms": ["وحده تلفزيون", "وحدة تلفزيون", "مكتبه تلفزيون", "tv unit", "tv stand"],
+                     "base_price": 12000, "default_dims": [180, 45, 50], "min_dims": [100, 30, 35], "max_dims": [320, 60, 80], "production_days": 12},
+    "desk":         {"name_ar": "مكتب", "name_en": "Desk", "synonyms": ["مكتب", "desk"],
+                     "base_price": 9000, "default_dims": [140, 70, 75], "min_dims": [80, 50, 70], "max_dims": [220, 90, 80], "production_days": 10},
+    "chair":        {"name_ar": "كرسي", "name_en": "Chair", "synonyms": ["كرسي", "كراسي", "chair", "chairs"],
+                     "base_price": 3500, "default_dims": [45, 50, 95], "min_dims": [40, 40, 80], "max_dims": [65, 65, 120], "production_days": 10}
+  },
+  "woods": {
+    "beech":    {"name_ar": "زان", "name_en": "Beech", "synonyms": ["زان", "beech"], "multiplier": 1.0, "color_hex": "#C9A27A"},
+    "oak":      {"name_ar": "أرو", "name_en": "Oak", "synonyms": ["ارو", "أرو", "بلوط", "oak"], "multiplier": 1.35, "color_hex": "#B08850"},
+    "walnut":   {"name_ar": "جوز", "name_en": "Walnut", "synonyms": ["جوز", "walnut"], "multiplier": 1.6, "color_hex": "#6B4A32"},
+    "mahogany": {"name_ar": "ماهوجني", "name_en": "Mahogany", "synonyms": ["ماهوجني", "ماهوجنى", "mahogany"], "multiplier": 1.5, "color_hex": "#7A3B2A"},
+    "pine":     {"name_ar": "موسكي", "name_en": "Pine", "synonyms": ["موسكي", "موسكى", "pine"], "multiplier": 0.85, "color_hex": "#D8B98A"},
+    "mdf":      {"name_ar": "MDF", "name_en": "MDF", "synonyms": ["mdf", "ام دي اف", "إم دي إف", "خشب مضغوط"], "multiplier": 0.7, "color_hex": "#C2A88A"}
+  },
+  "finishes": {
+    "natural":   {"name_ar": "طبيعي (زيت)", "name_en": "Natural oil", "synonyms": ["طبيعي", "زيت", "natural", "oil"], "multiplier": 1.0},
+    "matte":     {"name_ar": "مط", "name_en": "Matte", "synonyms": ["مط", "مات", "matte", "matt"], "multiplier": 1.08},
+    "lacquer":   {"name_ar": "دوكو", "name_en": "Lacquer", "synonyms": ["دوكو", "lacquer", "paint"], "multiplier": 1.15},
+    "polyester": {"name_ar": "بوليستر لامع", "name_en": "High-gloss polyester", "synonyms": ["بوليستر", "لامع", "هاي جلوس", "glossy", "gloss", "polyester"], "multiplier": 1.25}
+  },
+  "colors": {
+    "natural": {"name_ar": "لون الخشب الطبيعي", "name_en": "Natural wood", "synonyms": ["لون الخشب", "طبيعي", "natural"], "extra": 0, "color_hex": null},
+    "white":   {"name_ar": "أبيض", "name_en": "White", "synonyms": ["ابيض", "أبيض", "white"], "extra": 600, "color_hex": "#F2F0EB"},
+    "black":   {"name_ar": "أسود", "name_en": "Black", "synonyms": ["اسود", "أسود", "black"], "extra": 600, "color_hex": "#2A2A2A"},
+    "beige":   {"name_ar": "بيج", "name_en": "Beige", "synonyms": ["بيج", "beige"], "extra": 600, "color_hex": "#D9C7A7"},
+    "grey":    {"name_ar": "رمادي", "name_en": "Grey", "synonyms": ["رمادي", "رصاصي", "grey", "gray"], "extra": 600, "color_hex": "#8E8E8E"},
+    "brown":   {"name_ar": "بني", "name_en": "Brown", "synonyms": ["بني", "بنى", "brown"], "extra": 400, "color_hex": "#5C3B24"}
+  },
+  "delivery": {
+    "cities": {
+      "Cairo":      {"name_ar": "القاهرة", "synonyms": ["القاهره", "القاهرة", "مصر الجديده", "مدينه نصر", "المعادي", "التجمع", "cairo"], "base": 600, "per_extra_unit": 150, "days": 2},
+      "Giza":       {"name_ar": "الجيزة", "synonyms": ["الجيزه", "الجيزة", "اكتوبر", "أكتوبر", "الشيخ زايد", "giza", "october"], "base": 700, "per_extra_unit": 150, "days": 2},
+      "Alexandria": {"name_ar": "الإسكندرية", "synonyms": ["اسكندريه", "الاسكندريه", "إسكندرية", "الإسكندرية", "alexandria", "alex"], "base": 1500, "per_extra_unit": 250, "days": 4},
+      "Delta":      {"name_ar": "الدلتا", "synonyms": ["طنطا", "المنصوره", "المنصورة", "الزقازيق", "delta", "tanta", "mansoura"], "base": 1800, "per_extra_unit": 250, "days": 4},
+      "Upper Egypt":{"name_ar": "الصعيد", "synonyms": ["الصعيد", "اسيوط", "أسيوط", "المنيا", "سوهاج", "الاقصر", "الأقصر", "اسوان", "أسوان", "upper egypt", "assiut", "luxor", "aswan"], "base": 3000, "per_extra_unit": 400, "days": 6}
+    },
+    "other": {"base": 2500, "per_extra_unit": 350, "days": 6}
+  }
+}

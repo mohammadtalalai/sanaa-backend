@@ -1,0 +1,41 @@
+# --- Web API ---
+fastapi==0.121.0
+uvicorn[standard]==0.38.0
+python-multipart==0.0.20
+pydantic==2.12.3
+pydantic-settings==2.11.0
+orjson==3.11.3
+
+# --- Database (asyncpg works with the default Windows event loop) ---
+SQLAlchemy==2.0.44
+asyncpg==0.30.0
+sqlglot==27.28.1
+
+# --- LLM / HTTP ---
+httpx==0.28.1
+
+# --- Security ---
+PyJWT==2.10.1
+
+# --- Phase 2: analytics, ML, scheduling ---
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+joblib==1.5.2
+APScheduler==3.11.0
+
+# --- Phase 1: voice ---
+faster-whisper==1.2.0
+av==15.1.0
+huggingface-hub==0.36.0
+requests==2.32.5
+edge-tts==7.2.3
+
+# --- Phase 4: 3D design ---
+trimesh==4.8.3
+matplotlib==3.10.7
+
+# --- Tests ---
+pytest==8.4.2
+pytest-asyncio==1.2.0
